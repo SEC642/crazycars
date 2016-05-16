@@ -233,7 +233,7 @@ CREATE TABLE `tbl_shop_config` (
 
 LOCK TABLES `tbl_shop_config` WRITE;
 /*!40000 ALTER TABLE `tbl_shop_config` DISABLE KEYS */;
-INSERT INTO `tbl_shop_config` VALUES ('SEC642 Cart','At a conference, on-site, vLive! or OnDemand session near you','','jwright@willhackforsushi.com','55.00',4,'n');
+INSERT INTO `tbl_shop_config` VALUES ('Justin Searle','SEC642 at a conference, on-site, vLive! or OnDemand session near you','','instructors@sec642.org','55.00',4,'n');
 /*!40000 ALTER TABLE `tbl_shop_config` ENABLE KEYS */;
 UNLOCK TABLES;
 
