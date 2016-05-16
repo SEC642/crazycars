@@ -9,9 +9,9 @@ error_reporting(E_ERROR);
 
 // database connection config
 $dbHost = 'localhost';
-$dbUser = 'cart';
-$dbPass = 'JoshLovesIce';
-$dbName = 'cart';
+$dbUser = 'root';
+$dbPass = '';
+$dbName = 'crazycars';
 
 // setting up the web root and server root for
 // this shopping cart application
@@ -32,7 +32,7 @@ define('PRODUCT_IMAGE_DIR',  'images/product/');
 // some size limitation for the category
 // and product images
 
-// all category image width must not 
+// all category image width must not
 // exceed 75 pixels
 define('MAX_CATEGORY_IMAGE_WIDTH', 75);
 
@@ -52,12 +52,12 @@ if (!get_magic_quotes_gpc()) {
 			$_POST[$key] =  trim(addslashes($value));
 		}
 	}
-	
+
 	if (isset($_GET)) {
 		foreach ($_GET as $key => $value) {
 			$_GET[$key] = trim(addslashes($value));
 		}
-	}	
+	}
 }
 
 // since all page will require a database access

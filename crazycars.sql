@@ -16,6 +16,14 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Current Database: `sqli`
+--
+
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `crazycars` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+USE `crazycars`;
+
+--
 -- Table structure for table `tbl_cart`
 --
 
